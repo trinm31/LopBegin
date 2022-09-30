@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 
 namespace ConsoleAppBeginner
 {
@@ -256,16 +258,108 @@ namespace ConsoleAppBeginner
             //     Console.WriteLine(i);
             // }
 
-            int i = 0;
-            while (true)
-            {
-                Console.WriteLine(++i);
-                if (i == 10)
-                {
-                    break;
-                }
-            }
+            // int i = 0;
+            // while (true)
+            // {
+            //     Console.WriteLine(++i);
+            //     if (i == 10)
+            //     {
+            //         break;
+            //     }
+            // }
+            
+            
 
+            #endregion
+
+            #region Buoi 3 - Mảng/list
+            
+            // 1. mảng là chuỗi các hộp chứa dữ liệu - xác định số lượng phần tử trong mảng;
+            // cách 1: để khai báo và gán dữ liệu cho mảng
+            string[] LopBegin = new string[4];
+            LopBegin[0] = "Son";
+            LopBegin[1] = "Phong";
+            LopBegin[2] = "Linh";
+            LopBegin[3] = "Hieu";
+            // cách 2: 
+            string[] productNames = new string[5] { "Iphone", "Samsung", "Asus", "Acer", "Dell" };
+
+            // cách để lấy dữ liệu trong mảng
+            Console.WriteLine(productNames[2]);
+            productNames[2] = "Asus fake";
+            Console.WriteLine(productNames[2]);
+            
+            var productName2 = new string[5] { "Iphone", "Samsung", "Asus", "Acer", "Dell" };
+            string[] productName3 = { "Iphone", "Samsung", "Asus", "Acer", "Dell" };
+            
+            // đếm số lượng phần tử trong mảng
+            Console.WriteLine("Number element in array " + productName3.Length);
+            
+            // min - lấy phần tử nhỏ nhất trong mảng
+            int[] number = { 3, 45, 6, 6453, 143, 8, 76452654 };
+
+            Console.WriteLine("Smallest number in array is: " + number.Min());
+            // max - lấy phần tử lớn nhất trong mảng
+            Console.WriteLine("Smallest number in array is: " + number.Max());
+            
+            // indexOf - lấy vị trí index của phần tử trong mảng
+            Console.WriteLine("Index of 6453 is " + Array.IndexOf(number, 6453));
+            
+            // dùng for để in ra các phần tử trong mảng
+            // for (int i = 0; i < number.Length; i++)
+            // {
+            //     Console.WriteLine(number[i]);
+            // }
+            //
+            // foreach (var element in number)
+            // {
+            //     Console.WriteLine(element);
+            // }
+            
+            // sắp xếp các phần tử trong mảng
+            Array.Sort(number);
+            Array.Reverse(number);
+            foreach (var element in number)
+            {
+                Console.WriteLine(element);
+            }
+            
+            // Mảng 2 chiều
+
+            int[,] mang2chieu = new int[3,4];
+
+            mang2chieu[0, 0] = 1;
+            mang2chieu[2, 3] = 5;
+            
+            // Mảng trong mảng
+
+            int[][] mangtrongmang = new int[4][]
+            {
+                new []{1,2,3},
+                new []{1,2,3},
+                new []{1,2,3},
+                new []{1,2,3}
+            };
+            
+            // list -
+            // nó là mảng những mà kiểu dynamic nên cho
+            // phép ko cần khai báo số lượng phần tử khi khởi tạo
+
+            List<string> className = new List<string>();
+            className.Add("tri");
+            className.Add("tri1");
+            className.Add("tri2");
+            className.Add("tri3");
+            className.Add("tri4");
+            
+            // đếm số lượng phần tử trong list 
+            Console.WriteLine("Number of element in list " + className.Count);
+            
+            // in ra các phần tử trong list
+            foreach (var element in className)
+            {
+                Console.WriteLine(element);
+            }
             #endregion
         }
     }
