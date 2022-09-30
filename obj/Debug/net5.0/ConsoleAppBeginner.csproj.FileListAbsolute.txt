@@ -1,0 +1,15 @@
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/bin/Debug/net5.0/ConsoleAppBeginner.deps.json
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/bin/Debug/net5.0/ConsoleAppBeginner.runtimeconfig.json
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/bin/Debug/net5.0/ConsoleAppBeginner.runtimeconfig.dev.json
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/bin/Debug/net5.0/ConsoleAppBeginner.dll
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/bin/Debug/net5.0/ref/ConsoleAppBeginner.dll
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/bin/Debug/net5.0/ConsoleAppBeginner.pdb
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/obj/Debug/net5.0/ConsoleAppBeginner.csproj.AssemblyReference.cache
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/obj/Debug/net5.0/ConsoleAppBeginner.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/obj/Debug/net5.0/ConsoleAppBeginner.AssemblyInfoInputs.cache
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/obj/Debug/net5.0/ConsoleAppBeginner.AssemblyInfo.cs
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/obj/Debug/net5.0/ConsoleAppBeginner.csproj.CoreCompileInputs.cache
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/obj/Debug/net5.0/ConsoleAppBeginner.dll
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/obj/Debug/net5.0/ref/ConsoleAppBeginner.dll
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/obj/Debug/net5.0/ConsoleAppBeginner.pdb
+/Users/tringuyen/RiderProjects/ConsoleAppBeginner/ConsoleAppBeginner/obj/Debug/net5.0/ConsoleAppBeginner.genruntimeconfig.cache
